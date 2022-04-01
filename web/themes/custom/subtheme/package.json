@@ -1,0 +1,38 @@
+{
+  "name": "subtheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "postcss-pxtorem": "^5.1.1"
+  },
+  "browserslist": [
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 8",
+    "Safari >= 8",
+    "Android 2.3",
+    "Android >= 4",
+    "Opera >= 12"
+  ],
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.12",
+    "postcss-inline-svg": "^5.0.0"
+  }
+}

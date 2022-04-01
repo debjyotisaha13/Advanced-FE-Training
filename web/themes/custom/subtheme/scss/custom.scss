@@ -1,0 +1,21 @@
+$font-size-12: 12px;
+$white: #fff;
+
+.navbar-brand {
+  font-size: $font-size-12;
+}
+.header {
+  a {
+    color: $white;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 0;
+    img {
+      height: 45px;
+    }
+  }
+}
